@@ -1,0 +1,46 @@
+.mainMenu {
+    display: flex;
+    width: 100vw;
+    height: 5rem;
+    max-width: 75rem;
+    padding: 1rem 2rem;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    height: 5rem;
+    z-index: 3;
+}
+
+.logo {
+    object-fit: contain;
+    width: 3rem;
+    height: 3rem;
+}
+
+.menuNamesItem {
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.menuNamesItem:hover {
+    padding: 1rem;
+    border: 3px solid yellow;
+    border-radius: 1rem;
+}
+
+.active {
+    color: blue;
+    border: 3px solid yellow;
+    padding: 0.5rem;
+}
+
+.menuBtn {
+    background: yellow;
+    border-radius: 1rem;
+    color: black;
+    font-weight: 600;
+    border: none;
+    padding: 1rem;
+    font-size: medium;
+}
