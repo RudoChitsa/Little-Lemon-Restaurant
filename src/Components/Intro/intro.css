@@ -1,0 +1,45 @@
+
+.introMain {
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.headerImg {
+    position: absolute;
+    top: -2rem;
+    z-index: -1;
+    right: 0;
+    object-fit: cover;
+    height: 70vh;
+    width: 50vw;
+    border-radius: 8%;
+    padding-top: 100px;
+    padding-right: 30px;
+}
+
+.info {
+    height: 50vh;
+    width: 40vw;
+    padding: 30px;
+    padding-top: 230px;
+    font-size: 2rem;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.introBtn {
+    background: yellow;
+    border-radius: 1rem;
+    color: black;
+    font-weight: 600;
+    border: none;
+    padding: 1rem;
+    font-size: medium;
+    width: 10rem;
+}

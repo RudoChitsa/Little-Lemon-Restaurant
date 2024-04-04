@@ -10,7 +10,7 @@ const Menu = () => {
         <div className='menuNames'>
         <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className='menuNamesItem'>Home</Link> 
         <Link activeClass='active' to='about' spy={true} smooth={true} offset={-100} duration={500} className='menuNamesItem'>About</Link>
-        <Link activeClass='active' to='foodMenu' spy={true} smooth={true} offset={-100} duration={500} className='menuNamesItem'>Menu</Link>
+        <Link activeClass='active' to='foodmenu' spy={true} smooth={true} offset={-100} duration={500} className='menuNamesItem'>Menu</Link>
         <Link activeClass='active' to='reservations' spy={true} smooth={true} offset={-100} duration={500} className='menuNamesItem'>Reservations</Link>
         <Link activeClass='active' to='login' spy={true} smooth={true} offset={-100} duration={500} className='menuNamesItem'>Login</Link>
         </div>

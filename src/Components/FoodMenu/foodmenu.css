@@ -1,0 +1,31 @@
+.card-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+.card {
+	flex: 1 1 calc(33.33% - 20px);
+	padding: 20px;
+	box-sizing: border-box;
+    border: 3px solid yellow;
+    border-radius: 1rem;
+}
+
+.menuImg {
+    object-fit: relative;
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+	.card {
+		flex: 1 1 calc(50% - 20px);
+	}
+}
+
+@media (max-width: 480px) {
+	.card {
+		flex: 1 1 calc(100% - 20px);
+	}
+}
