@@ -6,42 +6,33 @@ import menuThree from '../../assets/7.jpg';
 
 const FoodMenu = () => {
   return (
-    <div class="card-container">
-        <div class="card">
+    <div className="card-container">
+        <div className="card">
           <img src={menuOne} alt='' className='menuImg'></img>
-            <h1>HTML</h1>
+            <h1>Greek Salad</h1>
             <p>
-                HyperText Markup Language or HTML is the 
-                  standard markup language for documents 
-                  designed to be displayed in a web browser. 
-                  It defines the content and structure of web
-                content.
+            The famous Greek salad of crispy lettuce, 
+            peppers, olives and our Chicago styled feta cheese, 
+            garnished with crunchy garlic, rosemary croutons.
             </p>
             <button className='introBtn'>Order For Delivery</button>
         </div>
-        <div class="card">
+        <div className="card">
         <img src={menuTwo} alt='' className='menuImg'></img>
-            <h1>CSS</h1>
+            <h1>Bruschetta</h1>
             <p>
-                Cascading Style Sheets is a style sheet 
-                  language used for specifying the presentation 
-                  and styling of a document written in a markup 
-                  language such as HTML or XML. CSS is a
-                cornerstone technology of the World Wide Web, 
-                  alongside HTML and JavaScript.
+            Our Bruschetta is made from grilled bread that has 
+            been smeared with garlic and seasoned with salt and olive oil; 
+            made perfect for an evening dinner
             </p>
             <button className='introBtn'>Order For Delivery</button>
         </div>
-        <div class="card">
+        <div className="card">
         <img src={menuThree} alt='' className='menuImg'></img>
-            <h1>JavaScript</h1>
+            <h1>Lemon Dessert</h1>
             <p>
-                JavaScript, often abbreviated as JS, is a 
-                  programming language and core technology 
-                  of the World Wide Web, alongside HTML and CSS.
-                As of 2024, 98.9% of websites use JavaScript 
-                  on the client side for webpage behavior, 
-                  often incorporating third-party libraries.
+            This comes straight from Grandma's recipe book. 
+            Every last ingredient has been sourced and is as authentic as can be imagined.
             </p>
             <button className='introBtn'>Order For Delivery</button>
         </div>
