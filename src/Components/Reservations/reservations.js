@@ -4,8 +4,7 @@ import Form from "../../Components/Form/form";
 
 const Reservations = () => {
   return (
-    <div>
-      reservations
+    <div className='reserve'>
       <Form />
     </div>
   )

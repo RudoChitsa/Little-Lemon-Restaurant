@@ -29,6 +29,7 @@ function Form() {
         <form onSubmit={handleSubmit(formSubmit)}>
             <fieldset>
                 <div className="field">
+                    <label htmlFor="reservation">Make Reservation</label>
                     <label htmlFor="name">Full Name</label>
                     <input type="text" placeholder="John Doe" name="name" {...register("name")} />
                     <span className="error-message">{errors.name?.message}</span>

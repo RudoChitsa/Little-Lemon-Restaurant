@@ -53,6 +53,8 @@ fieldset {
     border: none;
     width: 60%;
     place-items: center;
+    margin-left: 290px;
+    padding: 3rem;
 }
 
 .field {
@@ -70,7 +72,7 @@ fieldset {
 
 input {
     padding: 10px;
-    border: 1px solid rgba(38, 39, 2, 0.3);
+    border: 1px solid rgba(201, 209, 41, 0.3);
     border-radius: 5px;
     width: 100%;
 }
@@ -92,7 +94,7 @@ input[type=datetime-local] {
 
 .options {
     padding-right: 10px;
-    border: 1px solid rgba(51,51,51,0.3);
+    border: 1px solid rgba(201, 209, 41, 0.3);
     border-radius: 5px;
 }
 

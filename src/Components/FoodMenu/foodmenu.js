@@ -34,6 +34,9 @@ const FoodMenu = () => {
             This comes straight from Grandma's recipe book. 
             Every last ingredient has been sourced and is as authentic as can be imagined.
             </p>
+            <br></br>
+            <br></br>
+            <br></br>
             <button className='introBtn'>Order For Delivery</button>
         </div>
     </div>
